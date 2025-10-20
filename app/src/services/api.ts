@@ -1,6 +1,5 @@
 import axios from "axios";
 import type { ApiProduct } from "../types/product";
-import type {normalizeProduct} from "../utils/normalizeProduct"
 
 const API_BASE_URL = "https://noxer-test.ru/webapp/api/products";
 

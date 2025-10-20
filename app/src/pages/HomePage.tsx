@@ -7,7 +7,7 @@ import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   const [products, setProducts] = useState<ApiProduct[]>([]);
-  const [searchQuery, setSearchQuery] = useState("");      // 🔍 новое состояние
+  const [searchQuery, setSearchQuery] = useState("");     
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -40,7 +40,7 @@ const HomePage = () => {
     <div className={styles.main}>
       <div className={styles.container}>
 
-        {/* 🔍 Поле ввода для поиска */}
+        {/* Поле ввода для поиска */}
         <input
           type="text"
           placeholder="Поиск товаров..."
