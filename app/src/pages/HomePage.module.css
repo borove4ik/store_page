@@ -2,9 +2,22 @@
     padding: 16px;
   }
   
+ 
+  .loader,
+  .error,
+  .empty {
+    text-align: center;
+    padding: 20px 0;
+    color: #555;
+  }
+  
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
+  }
+
+  .main {
+    background-color: #F1F1F1;
   }
   
